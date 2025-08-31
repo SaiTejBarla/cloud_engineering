@@ -1,0 +1,37 @@
+What is cloud computing?
+We rent servers over internet instead of buying physical servers where,
+  1. we don't worry about hardware failures
+  2. you pay only for what you use
+  3. you can scale up/down immediately
+
+Example - 
+  Traditional - you buy a laptop with 1TB storage
+  Cloud - Just rent 100GB storage from Google Drive. If you need more  	 	  tomorrow, you upgrade instantly
+
+
+Key Benefits of cloud -
+	On-demand - The resources are available instantly
+	Scalable - add/remove resources as needed
+	Cost-Efficient - pay only for what you use
+	Global access - services are available world wide
+	Managed Services - databases, networking, backups are handled by 	 	           cloud provider
+
+
+Service Models in Cloud-
+There are 3 main models:
+
+1. Iaas (Infrastructure as a Service) -
+	1. Raw computing resources (VMs, storage, networking).
+	2. Example - AWS EC2, Azure VM, GCP Compute Engine
+	3. You manage OS, runtime, app
+
+2. Paas (Platform as a Service) -
+	1. Platform for developers to deploy apps quickly.
+	2. Example - GCP APP ENGINE, Azure App Service, HEROKU.
+	3. Cloud manages OS & runtime, you manage the app code.
+
+3. SaaS (Software as a Service) - 
+	1. Ready-to-use Software
+	2. Example - Gmail, Google Docs, Office 365.
+	3. We just use it, nothing to code or manage infra
+

@@ -1,0 +1,45 @@
+Day 3 - Hands-on Setup
+
+📒 Cloud Engineering Roadmap – Month 1, Day 3
+🌐 Virtual Machines (VMs) and Deployment Models
+🔹 What is a Virtual Machine (VM)?
+
+A virtual computer running inside a cloud provider’s data center.
+
+You can choose the OS, CPU, RAM, storage, and network settings.
+
+Full control: install your own software, configure firewalls, manage backups.
+
+👉 Example: In GCP Compute Engine or AWS EC2, you can create a VM with Ubuntu OS and run any application.
+
+🔹 IaaS vs PaaS Recap
+
+IaaS (VMs) → Cloud gives you raw infrastructure, you manage OS + runtime + apps.
+
+PaaS (Render/Netlify/Streamlit) → Cloud manages infra, you only focus on code.
+
+🔹 Examples & Usage
+Service Type	Examples	Who Manages What?	Use Case
+VMs (IaaS)	AWS EC2, GCP Compute Engine, Azure VM	Cloud: hardware, networking
+You: OS, runtime, code, security	Full control (web server, database, custom apps)
+Render (PaaS)	Render.com	Cloud: infra, runtime setup
+You: just push code	Deploy Flask/Django API or backend quickly
+Netlify (PaaS)	Netlify.com	Cloud: infra, build pipelines, CDN
+You: code (React/HTML/CSS)	Hosting static frontend sites
+Streamlit Cloud (SaaS)	streamlit.io	Cloud: everything
+You: just upload Python dashboard code	Hosting data dashboards instantly
+🔹 Analogy
+
+VM (IaaS) = Renting a raw apartment → you set up furniture, electricity, water, etc.
+
+Render/Netlify/Streamlit (PaaS/SaaS) = Renting a furnished apartment → just bring your clothes, move in, everything else is managed.
+
+✅ Key Takeaways (Day 3)
+
+VMs are flexible & powerful → but you manage everything (OS, runtime, security).
+
+PaaS/SaaS are easy & fast → but limited flexibility (you can’t configure OS-level things).
+
+You’ve already used Netlify, Render, and Streamlit → meaning you have PaaS/SaaS experience.
+
+Later when you get free credits → you can try creating a VM on GCP/AWS/Azure for hands-on.

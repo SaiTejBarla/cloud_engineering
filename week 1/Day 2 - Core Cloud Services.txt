@@ -1,0 +1,54 @@
+Day 2 - Core Cloud Services
+
+1. Compute (Brains of the cloud) - 
+	> Compute = processing power.
+	> Used to run applications, websites, scripts.
+	
+	Types - 
+		> VMs (virtual machines) -> like renting a full computer in a 		  in a cloud. (AWS, AZURE VMS).
+
+
+		> Serverless Functions -> run code without managing servers
+
+             
+                > Containers -> lightweight, portable apps, (Docker, 			  Kubernetes).
+
+                > Example - Running a Python Flask app on a VM.
+
+2. Storage - Where data lives
+	Types -
+		> Object Storage (files, images, videos) -> AWS S3, GCP 		CLOUD STORAGE, AZURE BLOB.
+
+		> Block Storage (hard disk for a virtual machine best for OS, DATABASES)
+
+		> File Storage ( shared file system across machines).
+
+	Example - Uploading a photo to Gogle Drive = Object Storage.
+
+3. Networking ( Roads of the Cloud) - 
+	
+	Networking refers to how resources talk to each other & the internet.
+
+	Key concepts:
+		IP Adddress -> unique identifier for a machine.
+
+		DNS -> converts domain name into IP (google.com -> 	
+		142.655.xxx)
+
+		VPC (Virtual Private Cloud) -> your private network inside 		cloud
+
+		Load Balancer -> Distributes traffic across multiple 			servers.
+
+		Firewall -> Allows or Blocks network traffic.
+	Example - If you run a website on virtual machine, a firewall rule 	must allow HTTP (port 80).
+
+4. Databases (Brains + Memory) -
+	Databases store structured data.
+	Types -
+		1. RSQL
+		2. NOSQL
+	Uses - 
+		1. SQL - best for transactions (bank, ecommerce).
+
+		2. NOSQL - best for flexible, large-scale apps (chatbots, 		Iot).
+

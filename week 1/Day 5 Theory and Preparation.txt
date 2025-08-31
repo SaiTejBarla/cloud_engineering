@@ -1,0 +1,7 @@
+Day 5: Theory and Preparation
+
+• Learn the difference between hosting on a VM and using cloud storage for static websites.
+• VM hosting is for dynamic sites, offers more control, but requires maintenance.
+• Cloud storage hosting is for static sites (HTML, CSS, JS), is serverless, and is highly scalable and cost-effective.
+• Object storage is the term for services like S3, Google Cloud Storage, or Azure Blob Storage.
+

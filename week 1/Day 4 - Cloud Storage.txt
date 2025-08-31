@@ -1,0 +1,16 @@
+Day 4 - Cloud Storage
+
+A fully managed service to store files (objects) like images, static files like html, css, js, pdfs, backups, videos.
+
+You dont manage servers - the cloud handles availability, replication, durability.
+
+Works like a giant online drive
+
+Types of Storage -
+
+1. Object Storage -> S3, Cloud Storage (best for websites, photos, logs).
+2. Block Storage -> EBS (AWS)
+3. File Storage - EFS (AWS)
+
+
+1. Object Storage - Hosting a static website

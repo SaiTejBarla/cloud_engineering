@@ -1,0 +1,6 @@
+Day 6: Hands-on Mini-Project
+
+• Create a new storage bucket with a globally unique name.
+• Enable static website hosting in the bucket settings.
+• Set public read permissions on the bucket so it is accessible from the internet.
+• Upload the HTML and CSS files to the bucket.

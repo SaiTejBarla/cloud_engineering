@@ -1,0 +1,4 @@
+Day 7: Review and Comparison
+
+• Test the website by visiting the provided URL.
+• Compare the two hosting methods based on ease of setup, cost, and scalability.

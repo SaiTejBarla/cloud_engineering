@@ -1,0 +1,71 @@
+1️⃣ What is a Database?
+
+A database is an organized collection of data (tables, rows, columns).
+
+Cloud databases are managed: cloud providers handle setup, scaling, backups, patching.
+
+You just connect and use.
+
+2️⃣ Types of Databases
+
+🔹 Relational Database (SQL-based)
+
+Data in rows/columns (tables).
+
+Uses SQL queries (SELECT, JOIN, etc.).
+
+Examples: MySQL, PostgreSQL, SQL Server.
+
+Cloud Services:
+
+AWS → RDS
+
+GCP → Cloud SQL
+
+Azure → Azure SQL Database
+
+🔹 NoSQL Database (Non-Relational)
+
+Flexible structure (JSON, key-value, document).
+
+Best for real-time apps, chat, IoT, etc.
+
+Examples: MongoDB, Cassandra, DynamoDB.
+
+Cloud Services:
+
+AWS → DynamoDB
+
+GCP → Firestore / Bigtable
+
+Azure → Cosmos DB
+
+3️⃣ Examples in Cloud
+
+AWS:
+
+RDS (MySQL/Postgres/SQL Server)
+
+DynamoDB (NoSQL)
+
+GCP:
+
+Cloud SQL (MySQL/Postgres/SQL Server)
+
+Firestore (NoSQL, JSON documents)
+
+Azure:
+
+Azure SQL Database (relational)
+
+Cosmos DB (NoSQL, global scale)
+
+4️⃣ Hands-On Idea (Free Options)
+
+Since you don’t have credit card access for AWS/GCP:
+
+Use free PostgreSQL/MySQL on Render (they give free hosted DB).
+
+Or use SQLite locally (comes pre-installed with Python).
+
+You’ll practice queries (CREATE TABLE, INSERT, SELECT).

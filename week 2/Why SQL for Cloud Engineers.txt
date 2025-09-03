@@ -1,0 +1,64 @@
+Why SQL for Cloud Engineers?
+
+Most cloud apps store data in databases.
+
+Support engineers are often asked to query logs, debug performance, or check user data.
+
+Cloud providers give managed DBs (RDS, Cloud SQL, CosmosDB).
+
+Knowing SQL helps you troubleshoot faster.
+
+3️⃣ Core SQL Commands (Beginner)
+
+📌 Start with these:
+
+CREATE TABLE – make a table
+
+INSERT – add data
+
+SELECT – retrieve data
+
+WHERE – filter
+
+ORDER BY – sort
+
+JOIN – combine two tables
+
+GROUP BY – aggregate
+
+COUNT, SUM, AVG, MIN, MAX – functions
+
+Example:
+
+-- Table: Customers
+CREATE TABLE Customers (
+    id INT,
+    name VARCHAR(50),
+    city VARCHAR(50)
+);
+
+INSERT INTO Customers VALUES (1, 'Alice', 'Delhi'), (2, 'Bob', 'Mumbai');
+
+-- Fetch all customers from Mumbai
+SELECT * FROM Customers WHERE city = 'Mumbai';
+
+-- Count customers per city
+SELECT city, COUNT(*) 
+FROM Customers 
+GROUP BY city;
+
+4️⃣ Hands-On (Free Practice)
+
+You don’t need AWS/GCP to try SQL.
+Use:
+
+SQLite Online → https://sqliteonline.com/
+
+DB Fiddle → https://www.db-fiddle.com/
+
+Mode SQL Tutor → https://mode.com/sql-tutorial/
+
+Try running:
+✅ Create a table
+✅ Insert 5–10 rows
+✅ Run SELECT queries

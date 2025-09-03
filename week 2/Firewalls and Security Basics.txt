@@ -1,0 +1,56 @@
+Firewalls and Security Basics 
+
+What is a Firewall?
+A firewall is like a security guard for our servers/applications.
+It controls who can enter (inbound traffic) and who can leave (outbound traffic)
+Works using rules (allow/deny traffic)
+
+Firewall Rules in Cloud - 
+You define rules-
+		Allow SSH(port 22) only from your IP
+		Allow HTTP(port 80) for everyone
+		Deny all others
+
+Inbound rules - Who can send traffic to your VM
+Outbound rules - Where your VM can send traffic
+
+
+3. Example
+
+Suppose you deploy a VM running a website:
+
+To make it accessible:
+
+Add rule → allow TCP 80 (HTTP) from anywhere (0.0.0.0/0).
+
+To access via SSH from your laptop:
+
+Add rule → allow TCP 22 (SSH) from your laptop’s IP (e.g., 106.67.xx.xx).
+
+To secure database:
+
+Allow only traffic from VM’s private IP, block internet access.
+
+🔹 4. Cloud Examples
+
+AWS: Security Groups + NACLs
+
+GCP: VPC Firewall Rules
+
+Azure: Network Security Groups (NSG)
+
+🔹 5. Hands-On (Free Tier Idea 💡)
+
+Create a VM.
+
+Add a firewall rule to allow port 80 (HTTP).
+
+Host a small static page (like “Hello Cloud”).
+
+Test:
+
+Open browser → enter VM’s public IP → see your site.
+
+Remove firewall rule → try again → blocked.
+
+That’s how firewall works! 🔒

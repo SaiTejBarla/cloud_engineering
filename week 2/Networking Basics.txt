@@ -1,0 +1,35 @@
+Networking Basics 
+
+IP Address - An IP Address is like a "House address" for your computer/server on a network
+
+Two main types:
+IPv4 - 192.723.2.34 ( most common, but limited supply)
+IPv6 - 2001:0d33:34df::2d56:9fh7:99jg ( newer, much larger address space).
+
+Types in cloud -
+Private IP - Internal, only accessible inside your network
+Public IP = Accessible from the internet
+
+
+DNS (Domain Name System) -
+DNS = Coverts human readable names into IPs
+Example - google.com -> 142.250.183.206
+
+
+Load Balancers - A Load Balancer spreads incoming traffic across multiple servers/VMs
+
+Example - 1000 users -> instead of all hitting a 1VM, traffic gets distributed to 3 Vms
+
+Benefits - High availability ( if 1 VM fails, others handle)
+Scalability 
+
+
+Firewalls - Firewalls are protections walls for our servers.
+Define rules to allow or block traffic
+Example rules in cloud :
+	Allow Inbound HTTP (port 80) traffic
+	Allow SSH (port 22) only from your IP
+	Block everything else
+
+VPC (Virtual Private Cloud) - A personal network within the cloud 
+Example - You are having a personal network within Google Cloud/Azure/AWS where you can create subnets, firewalls, routing rules

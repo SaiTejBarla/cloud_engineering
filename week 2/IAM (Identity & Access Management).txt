@@ -1,0 +1,53 @@
+IAM (Identity & Access Management)
+
+IAM = “Who can do what on which resource.”
+
+It controls users, roles, and permissions in cloud.
+
+Example:
+
+User A can only view storage buckets.
+
+User B can start/stop VMs.
+
+Service Account (non-human identity) can access DB.
+
+📌 In AWS: IAM Users, Roles, Policies.
+📌 In GCP: IAM Roles, Service Accounts, Policies.
+📌 In Azure: RBAC (Role-Based Access Control).
+
+2️⃣ Firewall vs Security Groups
+
+Firewall Rule: Controls inbound/outbound traffic (IP, Port, Protocol).
+
+Security Group (AWS): Same idea but attached to resources (EC2).
+
+Example:
+
+Allow only port 22 (SSH) for your IP.
+
+Allow port 80 for everyone (public website).
+
+3️⃣ VPC (Virtual Private Cloud)
+
+A virtual network inside the cloud.
+
+Contains subnets, firewalls, routing tables.
+
+Similar to how your home Wi-Fi has private IPs and only your router connects to the internet.
+
+You isolate and secure resources here.
+
+📌 In AWS: VPC
+📌 In GCP: VPC Network
+📌 In Azure: Virtual Network (VNet)
+
+4️⃣ Hands-On / Free Practice
+
+Even without AWS/GCP paid accounts, you can practice with:
+
+Local networking tools (ping, traceroute, netstat).
+
+Use Play with Docker / Katacoda (free sandboxes) to simulate networking.
+
+Write iptables/firewall rules in Linux VM (if you set one up).

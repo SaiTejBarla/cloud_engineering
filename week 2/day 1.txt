@@ -1,0 +1,30 @@
+Compute in Cloud 
+
+Whenever you run software, you need compute power ( CPU + RAM). 
+Cloud providers give this in different ways 
+
+1. Virtual Machines(VMs) - Its a IaaS type (INfrastructure as a Service). Its like renting a computer in the cloud.
+You choose -
+	OS, Cpu & RAM sizes ( like 2vCPUs, 4GB RAM), Disk Storage ( SSD, HDD)
+
+You are responsible for -
+Installing software (Python, Java, Nginx, etc).
+Managing security patches.
+Backups, scaling.
+
+2. Serveless Compute - 
+You dont manage servers at all.
+You only upload your code -> the cloud runs it when needed.
+You are only billed for what you are used.
+
+Examples - AWS Lambda, Google Cloud Functions/Cloud Run, Azure Functions
+
+
+3. Autoscaling - 
+CLoud can automatically add/remove servers based on traffic
+Example -
+	Your website usually has 100users/day -> 1VM is enough.
+	Suddenly 100,000 users come -> Cloud auto creates more VMs
+	When traffic drops, extra VMs are removed -> you save money.
+
+Example - E-commerce sites during mega sales.
